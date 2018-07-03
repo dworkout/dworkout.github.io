@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=cyrillic');
+
+body {
+    padding-bottom: 100px;
+}
+
+img {
+    user-select: none;
+}
+
+.ml-3 {
+    transition: all 800ms;
+}
+
+.a1 {
+    margin: 0 6%;
+    color: black;
+    border-bottom: 1px solid black;
+    transition: all 800ms;
+    padding: 3.5px;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.a1:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #b8b8b8;
+    transition: all 800ms;
+    font-family: cuprum;
+    font-size: 18.4px;
+}
+
+nav:hover {
+    filter: brightness(0.89)
+}
+
+.darkV {
+    position: fixed;
+    top: 0%;
+    right: 0;
+    cursor: pointer;
+}
+
+.darkV img {
+    transition: all 800ms;
+}
+
+.darkV img:hover {
+    border-radius: 30px
+}
+
+.dark {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.dark:hover {
+    background-color: white;
+    color: black;
+}
+
+.darkNav {
+    background-color: black;
+}
+
+.darkNav:hover {
+    background-color: #282828;
+}
+
+.darkBg {
+    background-color: black !important;
+}
+
+.transition {
+    transition: all 800ms;
+}
+
+.inverse {
+    filter: invert(100%);
+}
+
+.inverseH:hover {
+    filter: invert(50%);
+}
+
+.mt-10 {
+    margin-top: 8%;
+}
+
+.mt-15 {
+    margin-top: 10%;
+}
+
+.question {
+    font-size: 44px;
+    font-family: Poiret One;
+    transition: all 1s;
+}
+
+div span {
+    font-size: 25px;
+    font-family: Cuprum;
+    letter-spacing: 1.4;
+}
+
+.bigbtn a {
+    padding: 0.8em;
+    border-radius: 70px;
+    border: 1px solid black;
+    font-family: Ubuntu Condensed;
+    font-size: 30px;
+    transition: all 500ms;
+    color: black;
+}
+
+.bigbtn a:hover {
+    border: 1px solid #49aaff;
+    background-color: #49aaff;
+    color: white;
+    text-decoration: none;
+}
+
+.bigbtnDark {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.bigbtnDark:hover {
+    border: 1px solid #49aaff !important;
+    background-color: #49aaff;
+    color: black !important;
+}
+
+.time {
+    padding-bottom: 1px;
+    background-color: #ff8a5b;
+    transition: all 800ms;
+}
+
+.time-text {
+    transition: all 800ms;
+    letter-spacing: -0.9;
+    font-size: 50px;
+    font-family: cuprum;
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.time2-text {
+    transition: all 800ms;
+    font-family: ubuntu condensed;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1;
+}
+
+.time-dark {
+    background-color: #874b33;
+}
+
+.bg-other {
+    background-color: #b8b8b8;
+}
+
+.title {
+    font: 64px poiret one;
+}
+
+.o-text {
+    font-family: raleway;
+    font-size: 19px;
+}
+
+.ad {
+    line-height: 5em;
+    display: inline-flex;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    filter: invert(50%);
+}
+
+.activeBtn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 670px) {
+    .bigbtn a {
+        padding: 0.6em;
+    }
+    
+    .mt-10 span {
+        font-size: 20px;
+    }
+}
