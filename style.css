@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cuprum');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300&subset=cyrillic');
 
 body {
     padding-bottom: 100px;
@@ -175,8 +176,8 @@ div span {
 }
 
 .o-text {
-    font-family: raleway;
-    font-size: 19px;
+    font-family: Yanone Kaffeesatz;
+    font-size: 26px;
 }
 
 .ad {
