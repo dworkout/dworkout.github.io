@@ -187,7 +187,7 @@ div span {
 }
 
 .ad {
-    line-height: 5em;
+    line-height: 2.3em;
     display: inline-flex;
     border-bottom: 1px solid black;
 }
@@ -218,18 +218,24 @@ div span {
 }
 
 .image:hover {
-    -webkit-transform: scale(1.04);
-    -ms-transform: scale(1.04);
-    transform: scale(1.04);
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
     opacity: 0.7;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 400px) {
     .bigbtn a {
         padding: 0.6em;
     }
     
     .mt-10 span {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .a2 {
+        font-size: 33px;
     }
 }

@@ -11,12 +11,14 @@ $('document').ready(function() {
             : 'backgroundFixed.png';
         $('.bg').attr('src', src);
     })
-    
-    $(window).resize(function(){
-        if ($(window).width() <= 768) {  
-            $('.img').removeClass('col-6').addClass('col-12');
+    $(window).on("load, resize", function() {
+        var viewportWidth = $(window).width();
+        if (viewportWidth < 768) {
+                $(".img").removeClass("col-6").addClass("col-12");
+                $(".btnDark").attr('src', 'https://png.icons8.com/ios/43/000000/black-tie-filled.png');
         } else {
-            $('.img').removeClass('col-12').addClass('col-6');
-        }         
+                $(".img").removeClass("col-12").addClass("col-6");
+                $(".btnDark").attr('src', 'https://png.icons8.com/ios/65/000000/black-tie-filled.png');
+        }
     });
 })
