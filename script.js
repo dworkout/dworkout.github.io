@@ -11,4 +11,12 @@ $('document').ready(function() {
             : 'backgroundFixed.png';
         $('.bg').attr('src', src);
     })
+    
+    $(window).resize(function(){
+        if ($(window).width() <= 768) {  
+            $('.img').removeClass('col-6').addClass('col-12');
+        } else {
+            $('.img').removeClass('col-12').addClass('col-6');
+        }         
+    });
 })
