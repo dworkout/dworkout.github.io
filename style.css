@@ -34,9 +34,24 @@ a:hover {
     text-transform: uppercase;
 }
 
+.a1main {
+    margin: 0 6%;
+    border-bottom: 1px solid black;
+    transition: all 800ms;
+    padding: 3.5px;
+    user-select: none;
+    text-transform: uppercase;
+}
+
 .a1:hover {
     background-color: black;
     color: white;
+    border-radius: 5px;
+}
+
+.a1main:hover {
+    background-color: black;
+    color: white !important;
     border-radius: 5px;
 }
 
@@ -82,7 +97,7 @@ nav:hover {
 
 .dark:hover {
     background-color: white;
-    color: black;
+    color: black !important;
 }
 
 .darkNav {

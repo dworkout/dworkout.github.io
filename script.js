@@ -1,6 +1,6 @@
 $('document').ready(function() {
     $('.btnDark').on('click', function() {
-        $('.a1').toggleClass('dark');
+        $('.a1, .a1main').toggleClass('dark');
         $('nav img, .btnDark, .question, .s span, .s, .time p, .time img, .text-1, .activeBtn, .titleP, .darkVleft, .mob-a').toggleClass('inverse');
         $('.time').toggleClass('time-dark');
         $('nav').toggleClass('darkNav');
