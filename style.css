@@ -149,7 +149,7 @@ div span {
 }
 
 .bigbtn a {
-    padding: 0.8em;
+    padding: 0.66em;
     border-radius: 70px;
     border: 1px solid black;
     font-family: Ubuntu Condensed;
@@ -295,6 +295,10 @@ div span {
         -ms-flex:0 0 100% !important;
         flex:0 0 100% !important;
         max-width: 100% !important;
+    }
+    
+    .bigbtn a {
+        padding: 0.8em 0.15em;
     }
     
     .a1 {
