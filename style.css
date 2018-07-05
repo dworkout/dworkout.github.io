@@ -221,6 +221,9 @@ div span {
     transition: all .5s;
 }
 
+.bgBlack {
+    background-color: black;
+}
 
 .mob-a {
     font: 22px cuprum;
