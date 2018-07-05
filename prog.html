@@ -2,29 +2,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel='stylesheet' href="style.css"> 
+    <link rel='stylesheet' href="style.css">
+    <link href="hamburgers.css" rel="stylesheet">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>    
     <title>DWorkout</title>
 </head>
 <body class='transition bg-other'>
     <nav class='text-center'>
-        <a class='a1 activeBtn' href="prog.html">Программы</a>
-        <a href='index.html'><img src="https://png.icons8.com/ios/60/000000/dumbbell.png" class='inverseH transition'></a>
-        <a class='a1' href="cont.html">О нас</a>
+        <a class='a1 activeBtn' href="prog.html">программы</a> <a href='index.html'><img src="https://png.icons8.com/ios/60/000000/dumbbell.png" class='inverseH transition'></a>
+        <a class='a1' href="cont.html">о нас</a>
     </nav>
+    <div class='text-center'> 
+        <div class='mob-activeBtn mob-a d-none'>
+            <a class='mob-activeBtn' href='prog.html'>программы</a>
+        </div>
+        <br>
+        <div class='mob-a d-none'>
+            <a href='cont.html' class=''>о нас</a>
+        </div>
+    </div>
+    
+    <div class='darkVleft'>
+        <div class="menu-toggle">
+           <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <div class="cross">
+                <span></span>
+                <span></span>
+           </div>
+        </div>
+    </div>
     <div class='darkV'>
-        <img class='btnDark' src="https://png.icons8.com/ios/43/000000/black-tie-filled.png">
+        <img class='btnDark' src="https://png.icons8.com/ios/50/000000/black-tie-filled.png">
     </div>
     
     <div class='mt-10 col-12'>
         <div class='row text-center'>
-            <div class='img col-12'>
+            <div class='img col-6'>
                 <a href='prog1.html'>
                     <img class='image img-fluid' src='turnik.jpg'>
                 </a> 
                     <p class='mt-4 titleP'>на улице</p>   
             </div>
-            <div class='img col-12'>
+            <div class='img col-6'>
                 <a href='prog2.html'>
                     <img class='image img-fluid' src="fit.jpg">
                 </a>     
