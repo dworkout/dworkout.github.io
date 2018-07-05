@@ -222,7 +222,13 @@ div span {
 }
 
 .bgBlack {
-    background-color: black;
+    background-color: black !important;
+}
+
+.mob-nav {
+    background-color: #b8b8b8;
+    transition: all 800ms;
+    display: none;
 }
 
 .mob-a {
@@ -285,6 +291,10 @@ div span {
     
     .mob-a {
         display: inline-flex;
+    }
+    
+    .mob-nav {
+        display: block;
     }
 }
 
