@@ -229,6 +229,7 @@ div span {
     background-color: #b8b8b8;
     transition: all 800ms;
     display: none;
+    border: none;
 }
 
 .mob-a {
