@@ -73,6 +73,10 @@ nav:hover {
     cursor: pointer;
 }
 
+.svgimg {
+    width: 60;
+}
+
 .darkVleft {
     position: absolute;
     top: 0%;
