@@ -297,7 +297,7 @@ div span {
     }
     
     .bigbtn a {
-        padding: 0.74em 0.1em;
+        padding: 0.9em 0.4em;
     }
     
     .question {
@@ -314,6 +314,10 @@ div span {
     
     .bigbtn {
         margin-top: 4.5em
+    }
+    
+    .bigbtn a {
+        font-size: 24px;
     }
     
     .time {
@@ -342,6 +346,14 @@ div span {
     
     .mob-nav {
         display: block;
+    }
+    
+    .o-text {
+        font-size: 25.5px;
+    }
+    
+    .ad {
+        font-size: 22px;
     }
 }
 
