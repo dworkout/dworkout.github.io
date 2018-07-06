@@ -148,8 +148,12 @@ div span {
     opacity: 0.7;
 }
 
+.mob-bg-gray {
+    background-color: #b8b8b8;
+}
+
 .bigbtn a {
-    padding: 0.66em;
+    padding: 0.85em 0.44em;
     border-radius: 70px;
     border: 1px solid black;
     font-family: Ubuntu Condensed;
@@ -280,15 +284,6 @@ div span {
     opacity: 0.7;
 }
 
-@media screen and (max-width: 400px) {
-    .bigbtn a {
-        padding: 0.6em;
-    }
-    
-    .mt-10 span {
-        font-size: 20px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .col-6 {
@@ -298,7 +293,35 @@ div span {
     }
     
     .bigbtn a {
-        padding: 0.8em 0.15em;
+        padding: 0.74em 0.1em;
+    }
+    
+    .question {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    
+    .s {
+        font-size: 15px;
+        display: block;
+        padding: 5px 0px 1px 0px;
+        letter-spacing: 1;
+    }
+    
+    .bigbtn {
+        margin-top: 4.5em
+    }
+    
+    .time {
+        margin-top: 5.1em;
+    }
+    
+    .time-text {
+        font-size: 36.7px;
+    }
+    
+    .time2-text {
+        font-size: 14px;
     }
     
     .a1 {
@@ -315,6 +338,25 @@ div span {
     
     .mob-nav {
         display: block;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .question {
+        font-size: 26.5px;
+    }
+    
+    .s {
+        font-size: 14px;
+    }
+    
+    .bigBtn a {
+        padding: 0.8em 0.4em;
+        font-size: 25px;
+    }
+    
+    .time-text {
+        font-size: 32px;
     }
 }
 
