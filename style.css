@@ -242,7 +242,6 @@ div span {
 .mob-nav {
     background-color: #b8b8b8;
     display: none;
-    border: none;
 }
 
 .mob-a {
@@ -255,6 +254,18 @@ div span {
     text-transform: uppercase;
     border-radius: 5px;
     transition: all 800ms;
+}
+
+.mob-a:hover {
+    background-color: black;
+}
+
+.mob-a a {
+    transition: all 800ms;
+}
+
+.mob-a a:hover {
+    color: white;
 }
 
 .mob-activeBtn {

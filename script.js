@@ -12,9 +12,9 @@ $('document').ready(function() {
             : 'backgroundFixed.png';
         $('.bg').attr('src', src);
     });
-    
+    $('.mob-nav').hide();
     $('.menu-toggle').on('click',function(){
         $('.menu-toggle').toggleClass('active');
-        $('.mob-nav').toggleClass('d-none');
+        $('.mob-nav').slideToggle('slow');
     });
 })
