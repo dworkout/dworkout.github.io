@@ -278,8 +278,31 @@ div span {
     opacity: 0.7;
 }
 
+@media screen and (max-width: 900px) {
+    .question {
+        font-size: 37px;
+    }
+    
+    .s {
+        font-size: 21px;
+        letter-spacing: 1;
+    }
+    
+    .bigbtn a {
+        font-size: 27px;
+    }
+    
+    .time-text {
+        font-size: 38px;
+    }
+    
+    .time2-text {
+        font-size: 15.9px;
+    }
+}
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 560px) {
     .col-6 {
         -ms-flex:0 0 100% !important;
         flex:0 0 100% !important;
@@ -288,6 +311,7 @@ div span {
     
     .bigbtn a {
         padding: 0.9em 0.4em;
+        font-size: 24px;
     }
     
     .question {
@@ -304,10 +328,6 @@ div span {
     
     .bigbtn {
         margin-top: 4.5em
-    }
-    
-    .bigbtn a {
-        font-size: 24px;
     }
     
     .time {
