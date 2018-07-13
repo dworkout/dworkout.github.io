@@ -219,6 +219,10 @@ div span {
     border-bottom: 1px solid black;
 }
 
+.imageMinus {
+    transform: scale(0.92);
+}
+
 .activeA {
     filter: invert(50%);
 }
